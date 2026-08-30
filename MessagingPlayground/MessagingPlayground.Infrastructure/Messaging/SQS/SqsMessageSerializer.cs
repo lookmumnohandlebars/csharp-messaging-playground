@@ -1,12 +1,8 @@
-using System;
-using MessagingPlayground.Application;
-using MessagingPlayground.Infrastructure.Messaging.Kafka;
-
 namespace MessagingPlayground.Infrastructure.Messaging.SQS;
 
 public class SqsMessageSerializer
 {
-    public string Serialize(EventBase @event)
+    public string Serialize<TEvent>(TEvent @event) where TEvent : EventBase
     {
         return System.Text.Json.JsonSerializer.Serialize(@event);
     }

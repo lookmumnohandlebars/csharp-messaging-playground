@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AWSSDK.SQS" Version="4.0.100.11" />
+      <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.20.2" />
+      <PackageReference Include="Confluent.Kafka" Version="2.15.0" />
+      <PackageReference Include="System.Threading.Channels" Version="10.0.11" />
+    </ItemGroup>
+
+</Project>

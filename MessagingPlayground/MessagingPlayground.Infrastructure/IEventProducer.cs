@@ -1,6 +1,6 @@
 namespace MessagingPlayground.Infrastructure;
 
-public interface IEventProducer
+public abstract class EventProducer
 {
     
 }

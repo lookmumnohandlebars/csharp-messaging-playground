@@ -1,6 +1,5 @@
 using System;
 using Confluent.Kafka;
-using MessagingPlayground.Application;
 
 namespace MessagingPlayground.Infrastructure.Messaging.Kafka;
 

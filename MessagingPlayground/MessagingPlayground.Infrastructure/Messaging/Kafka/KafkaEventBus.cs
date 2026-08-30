@@ -2,7 +2,6 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Confluent.Kafka;
-using MessagingPlayground.Application;
 using MessagingPlayground.Infrastructure.Bus;
 
 namespace MessagingPlayground.Infrastructure.Messaging.Kafka;

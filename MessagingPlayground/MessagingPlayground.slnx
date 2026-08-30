@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MessagingPlayground.Infrastructure.Tests/MessagingPlayground.Infrastructure.Tests.csproj" />
+  <Project Path="MessagingPlayground.Infrastructure/MessagingPlayground.Infrastructure.csproj" />
+</Solution>
